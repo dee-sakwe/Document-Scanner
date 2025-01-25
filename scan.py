@@ -47,7 +47,7 @@ for c in cnts:
 
     # if our appoximated contour has four points, then we can 
     # assume that we have found our screen
-    if len(approx == 4):
+    if len(approx) == 4:
         screenCnt = approx
         break
 
